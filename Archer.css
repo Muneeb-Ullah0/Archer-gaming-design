@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    background-color: rgb(19, 25, 29);
+}
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    background: transparent;
+}
+.logo{
+    position: relative;
+    top: 20px;
+    left: 15px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: "Madimi One", sans-serif;
+  
+}
+.navbar a {
+    position: relative;
+    right: 40px;
+    top: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 50px;
+    font-family: "Madimi One", sans-serif;
+    font-size: 30px;
+    border-bottom: 2px solid transparent; 
+    transition: border-bottom 0.3s ease; 
+}
+
+.navbar a:hover {
+    color: rgb(161, 110, 207);
+    border-bottom: 2px solid rgb(245, 243, 247); 
+}
+
+#image {
+    width: 40%;
+    position: absolute;
+    top: 180px;
+    left: 55%;
+}
+
+
+#Heading {
+    position: absolute;
+    font-family: "Slackside One", cursive ;
+    font-weight: 1000; 
+    font-size: 160px;
+    color: rgb(248, 255, 255);
+    top: 30%;
+    left: 10%;
+  
+}
+
+
+#heading2{
+    position: absolute;
+    top: 40%;
+    left: 13%;
+    color: aliceblue;
+    font-family: "Ojuju", sans-serif;
+    font-size: 50px;
+}
+#pargraph{
+    color: #fffcfc;
+    position: absolute;
+    top: 75%;
+    left: 12%;
+    font-size: 16px;
+
+}
+#Watchbtn{
+    position: absolute;
+    top: 87%;
+    left: 13%;
+    border-color: #fffcfc;
+    color: #fffcfc;
+    background-color: rgb(19, 25, 29);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px whitesmoke;
+
+}
+
+
+
+.insta{
+    position: absolute;
+    top: 60%;
+    left: 3%;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 25px;
+     transition: all .50s ease;
+}
+.insta :hover{
+    color: rgb(193, 212, 15);
+    transform: translateY(-5px);
+}
+
+@keyframes waves {
+    0% , 40% ,100%{
+        transform: translateY(0);
+    }
+    20%{
+        transform: translateY(-30px);
+    }
+}
